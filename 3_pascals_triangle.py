@@ -23,7 +23,7 @@ class Solution:
 
     def printPascalsTriangle(results):
         for i in range(len(results)):
-            print('_' * len(results[len(results)-i-1]) ,end='')
+            print(' ' * len(results[len(results)-i-1]) ,end='')
             for j in results[i]:
                 print(j, ' ', sep='', end='')
             print()
